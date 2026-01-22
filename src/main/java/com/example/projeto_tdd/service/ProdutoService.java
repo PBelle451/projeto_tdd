@@ -29,4 +29,10 @@ public class ProdutoService {
         // Implementação para adicionar um novo produto
         return produto;
     }
+
+    public Produto deletar(Long id) {
+        // Implementação para deletar um produto
+        Produto produto = new Produto();
+        return produto;
+    }
 }
